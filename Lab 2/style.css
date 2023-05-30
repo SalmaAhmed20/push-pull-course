@@ -1,0 +1,38 @@
+/* Set the font family and size for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Center the container div */
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Style chat box */
+#chat {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+/* Style the chat messages */
+.message {
+    margin-bottom: 10px;
+}
+
+ .username {
+    font-weight: bold;
+}
+
+.message .timestamp {
+    font-size: 12px;
+    color: #999;
+}
+
+/* Style the input box */
+#msg {
+    margin: 10px;
+}
